@@ -13,6 +13,7 @@
 		C3711BAE247CF44900B45B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3711BAD247CF44900B45B3D /* Assets.xcassets */; };
 		C3711BB1247CF44900B45B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3711BB0247CF44900B45B3D /* Preview Assets.xcassets */; };
 		C3711BB4247CF44900B45B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3711BB2247CF44900B45B3D /* LaunchScreen.storyboard */; };
+		C3711BBE247CF53500B45B3D /* APIDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3711BBD247CF53500B45B3D /* APIDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C3711BB0247CF44900B45B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3711BB3247CF44900B45B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3711BB5247CF44900B45B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3711BBD247CF53500B45B3D /* APIDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C3711BA6247CF44800B45B3D /* SwiftUIWithMovieDB */ = {
 			isa = PBXGroup;
 			children = (
+				C3711BBB247CF52000B45B3D /* Network */,
 				C3711BA7247CF44800B45B3D /* AppDelegate.swift */,
 				C3711BA9247CF44800B45B3D /* SceneDelegate.swift */,
 				C3711BAB247CF44800B45B3D /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				C3711BB0247CF44900B45B3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3711BBB247CF52000B45B3D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C3711BBD247CF53500B45B3D /* APIDetail.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				C3711BA8247CF44800B45B3D /* AppDelegate.swift in Sources */,
 				C3711BAA247CF44800B45B3D /* SceneDelegate.swift in Sources */,
 				C3711BAC247CF44800B45B3D /* ContentView.swift in Sources */,
+				C3711BBE247CF53500B45B3D /* APIDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
